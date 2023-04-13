@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 ENV NODE_ENV=production
 ARG NPM_BUILD="npm install --production"
-EXPOSE 8080/tcp
+EXPOSE 80/tcp
 
 LABEL maintainer="TitaniumNetwork"
 LABEL summary="Holy Unblocker image"
