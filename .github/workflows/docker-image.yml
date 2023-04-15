@@ -22,9 +22,9 @@ jobs:
         run: |
           docker buildx build --push \
             --tag diffusehyperion/holyunblocker:latest \
-            --platform linux/amd64,linux/arm/v7,linux/arm64 .
+            --platform linux/amd64,linux/arm64 .
       - name: build image for github packages
         run: |
           docker buildx build --push \
             --tag ghcr.io/diffusehyperion/holyunblocker:latest \
-            --platform linux/amd64,linux/arm/v7,linux/arm64 .
+            --platform linux/amd64,linux/arm64 .
