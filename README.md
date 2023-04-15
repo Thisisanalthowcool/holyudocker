@@ -21,6 +21,8 @@ services:
       - "80:80"
 ```
 
+Works with reverse proxies too! I recommend using [Nginx Proxy Manager](https://nginxproxymanager.com/).
+
 # Original description
 
 # website-aio
