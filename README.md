@@ -8,7 +8,7 @@ Also available on Github Packages: https://github.com/DiffuseHyperion/holy-unblo
 # Usage
 Example docker run usage:
 
-```docker run -v "80:80" -d diffusehyperion/holyunblocke:latest```
+```docker run -v "80:80" -d diffusehyperion/holyunblocker:latest```
 
 Example `docker-compose.yml` usage:
 ```
