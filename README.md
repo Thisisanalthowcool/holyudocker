@@ -1,5 +1,5 @@
 # Holy Unblocker - Docker
-Docker for hosting Holy Unblocker's AIO on docker.
+Docker image for hosting Holy Unblocker's AIO on docker.
 
 Docker Hub repository: https://hub.docker.com/r/diffusehyperion/holyunblocker
 
